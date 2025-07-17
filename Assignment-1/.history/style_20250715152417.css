@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  /* background-image: url(./Assets/winter-season-background.webp); */
+  /* background-image: url(./Assets/winter-gif.webp); */
+  /* background-image: url(./Assets/winter.webp); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-card{
+  /* background-image: url(./Assets/winter.webp); */
+  /* background: linear-gradient(135deg, #dfe9f3, #ffffff); */
+  /* background: linear-gradient(135deg, #9face6, #74ebd5); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}

@@ -1,0 +1,5 @@
+var weather = prompt("Please select your favourite weather below: \n 1) Winter \n 2) Summer \n 3) Rainy \n 4) Thunderstorm \n 5) Autumn");
+
+if (weather === "winter"){
+    document.writeln
+}

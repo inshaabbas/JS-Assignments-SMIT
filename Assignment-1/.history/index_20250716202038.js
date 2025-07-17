@@ -1,0 +1,1 @@
+var weather = prompt("pleas select your favourite weather below: /n 1)Winter");
