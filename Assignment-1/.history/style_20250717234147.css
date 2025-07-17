@@ -1,9 +1,3 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
 .winter-main{
   background-image: url(./Assets/winter-bg.webp);
   background-repeat: no-repeat;
@@ -173,7 +167,7 @@ html, body {
 
 @media screen and (max-width: 450px){
   .summer-card{
-    height: 350px;
+    height: 410px;
     max-width: 520px;
     width: 300px;
   }
@@ -267,7 +261,7 @@ html, body {
 
 @media screen and (max-width: 450px){
   .rainy-card{
-    height: 350px;
+    height: 410px;
     max-width: 520px;
     width: 300px;
   }
@@ -367,7 +361,7 @@ html, body {
 
 @media screen and (max-width: 450px){
   .thunderstorm-card{
-    height: 350px;
+    height: 410px;
     max-width: 520px;
     width: 300px;
   }
@@ -468,7 +462,7 @@ html, body {
 
 @media screen and (max-width: 450px){
   .autumn-card{
-    height: 350px;
+    height: 410px;
     max-width: 520px;
     width: 300px;
   }
@@ -568,7 +562,7 @@ html, body {
 
 @media screen and (max-width: 450px){
   .spring-card{
-    height: 350px;
+    height: 410px;
     max-width: 520px;
     width: 300px;
   }
