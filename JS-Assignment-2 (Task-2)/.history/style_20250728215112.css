@@ -175,7 +175,7 @@
   -webkit-text-fill-color: transparent;
   animation: funPopBounce 1s infinite alternate;
   margin-bottom: 20px;
-  font-weight: bolder;
+  font
 }
 
 .heading-forward-2 {
@@ -286,7 +286,6 @@
   letter-spacing: 4px;
   color: 	#FFA500;
   text-shadow: 	0 0 5px #7FFFD4;
-  font-weight: bolder;
 }
 
 .heading-backward span {
