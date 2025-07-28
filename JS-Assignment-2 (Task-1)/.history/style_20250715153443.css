@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  /* background-image: url(./Assets/winter-season-background.webp); */
+  /* background-image: url(./Assets/winter-gif.webp); */
+  /* background-image: url(./Assets/winter.webp); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-card{
+  /* background-image: url(./Assets/winter.webp); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  height: 450px;
+  width: 300px;
+  flex-direction: column;
+  position: relative; 
+  overflow: hidden; 
+  background-color: white;
+  border-radius: 10px;
+}
+
+.weather-img img{
+    height: 300px;
+    margin-top: -80px;
+}

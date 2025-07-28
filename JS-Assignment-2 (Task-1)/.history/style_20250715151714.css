@@ -1,0 +1,12 @@
+
+
+.weather-card{
+  background-image: url(./Assets/winter.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
