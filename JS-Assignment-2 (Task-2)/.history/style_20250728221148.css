@@ -170,7 +170,7 @@
 
 .heading-forward {
   font-size: 48px;
-  background: linear-gradient(to right, #FF69B4, #FFD700, #61edbe);
+  background: linear-gradient(to right, #FF69B4, #FFD700, #6defc4);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: funPopBounce 1s infinite alternate;
