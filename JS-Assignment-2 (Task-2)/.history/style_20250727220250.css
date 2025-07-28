@@ -1,0 +1,11 @@
+.table{
+    background-image: url(./Assets/table-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
