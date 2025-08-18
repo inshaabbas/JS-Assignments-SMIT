@@ -88,6 +88,8 @@
 // document.writeln(`On reference date ${referenceDate} <br>`)
 // document.writeln(`${secondsElapsed} Seconds had passed since beginning of 2015`);
 
+// 11. Create a Date object for the current date and time. Extract the hours, reset the date object an hour ahead and finally display the date object in your browser.
+
 // var currentDate = new Date();
 
 // document.writeln(`Current date: ${currentDate} <br>`);
