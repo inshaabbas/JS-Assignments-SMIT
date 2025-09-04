@@ -1,0 +1,9 @@
+.phones{
+    display: flex;
+    gap: 20px;
+}
+
+.phone-cont img{
+    width: 120px;
+    height: 180px;
+}
