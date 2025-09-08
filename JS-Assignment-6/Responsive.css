@@ -413,6 +413,32 @@
 
 /* ============= Full Link Section Ends ============= */
 
+/* ============= Security Section Starts ============= */
+
+@media only screen and (max-width: 440px){
+    .security-card-1 {
+    width: 360px;
+}
+
+.security-card-2 {
+    width: 360px;
+}
+}
+
+@media only screen and (max-width: 388px){
+    .security-card-1 {
+    width: 300px;
+    padding: 10px;
+}
+
+.security-card-2 {
+    width: 300px;
+    padding: 10px;
+}
+}
+
+/* ============= Security Section Ends ============= */
+
 /* ============= Dob Section Starts ============= */
 
 @media only screen and (max-width: 880px) {
