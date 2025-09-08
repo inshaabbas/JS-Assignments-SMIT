@@ -28,10 +28,6 @@
 }
 
 @media (max-width: 632px) {
-    /* .container-xxl {
-        flex-direction: column;
-        gap: 6px;
-    } */
 
     .top-navbar {
         height: auto;
@@ -89,76 +85,80 @@
 }
 
 @media (max-width: 400px) {
-  .navbar-brand img,
-  .nav-logo {
-    width: 90px;   
-  }
 
-  .search-input {
-    font-size: 13px;
-    padding: 8px 34px 8px 12px; 
-  }
+    .navbar-brand img,
+    .nav-logo {
+        width: 90px;
+    }
 
-  .search-bar .fa-magnifying-glass {
-    font-size: 14px;
-    right: 10px;
-  }
+    .search-input {
+        font-size: 13px;
+        padding: 8px 34px 8px 12px;
+    }
+
+    .search-bar .fa-magnifying-glass {
+        font-size: 14px;
+        right: 10px;
+    }
 }
 
 @media (max-width: 320px) {
-  .navbar-brand img,
-  .nav-logo {
-    width: 75px; 
-  }
 
-  .search-input {
-    font-size: 12px;
-    padding: 6px 32px 6px 10px;
-  }
+    .navbar-brand img,
+    .nav-logo {
+        width: 75px;
+    }
 
-  .search-bar .fa-magnifying-glass {
-    font-size: 13px;
-    right: 8px;
-  }
+    .search-input {
+        font-size: 12px;
+        padding: 6px 32px 6px 10px;
+    }
+
+    .search-bar .fa-magnifying-glass {
+        font-size: 13px;
+        right: 8px;
+    }
 }
 
 @media (max-width: 280px) {
-  .navbar-brand img,
-  .nav-logo {
-    width: 65px;  
-  }
 
-  .search-input {
-    font-size: 11px;
-    padding: 5px 30px 5px 8px;
-  }
+    .navbar-brand img,
+    .nav-logo {
+        width: 65px;
+    }
 
-  .search-bar .fa-magnifying-glass {
-    font-size: 12px;
-    right: 6px;
-  }
+    .search-input {
+        font-size: 11px;
+        padding: 5px 30px 5px 8px;
+    }
+
+    .search-bar .fa-magnifying-glass {
+        font-size: 12px;
+        right: 6px;
+    }
 }
+
 /* ============= Main Navbar End ============= */
 
 /* ============= Bottom Navbar Start ============= */
-@media only screen and (max-width: 1048px){
-    .bottom-nav .container-xxl{
-    flex-direction: column;
-    align-items: flex-start;
+@media only screen and (max-width: 1048px) {
+    .bottom-nav .container-xxl {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
-@media only screen and (max-width: 632px){
-    .bottom-nav .bottom-right{
+@media only screen and (max-width: 632px) {
+    .bottom-nav .bottom-right {
         display: none;
     }
-    
+
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 430px) {
     .bottom-nav {
-    display: none !important;
-  }
+        display: none !important;
+    }
 }
 
 /* ============= Bottom Navbar End ============= */
@@ -167,168 +167,422 @@
 
 /* ============= Hero Section Start ============= */
 
-@media only screen and (max-width: 940px){
-    .freq-search{
+@media only screen and (max-width: 940px) {
+    .freq-search {
         flex-wrap: wrap;
     }
 }
 
-@media only screen and (max-width: 870px){
-    .hero-text h1{
-    color: white;
-    font-size: 40px;
-    width: 750px;
-}
-.hero-input input{
-    width: 100%;
-}
+@media only screen and (max-width: 870px) {
+    .hero-text h1 {
+        color: white;
+        font-size: 40px;
+        width: 750px;
+    }
+
+    .hero-input input {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width: 780px){
-    .hero-text h1{
-    color: white;
-    font-size: 40px;
-    width: 700px;
-}
-}
-
-@media only screen and (max-width: 710px){
-     .hero-text h1{
-    font-size: 35px;
-    width: 680px;
-}
-.freq-search{
-    display: flex;
-    align-items: center;
-    color: white;
-    gap: 10px;
-    font-size: 16px;
+@media only screen and (max-width: 808px) {
+    .hero-text h1 {
+        font-size: 38px;
+        width: 700px;
+    }
 }
 
-.freq-search button{
-    padding: 6px 16px;
-    border: white 1px solid;
-    color: white;
-    background-color: transparent;
-    border-radius: 20px;
-}
+@media only screen and (max-width: 710px) {
+    .hero-text h1 {
+        font-size: 32px;
+        width: 680px;
+    }
+
+    .freq-search {
+        display: flex;
+        align-items: center;
+        color: white;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .freq-search button {
+        padding: 6px 16px;
+        border: white 1px solid;
+        color: white;
+        background-color: transparent;
+        border-radius: 20px;
+    }
 }
 
-@media only screen and (max-width: 680px){
-     .hero-text h1{
-    font-size: 34px;
-    width: 580px;
-}
-.freq-search{
-    gap: 8px;
-    font-size: 14px;
+@media only screen and (max-width: 680px) {
+    .hero-text h1 {
+        font-size: 40px;
+        width: 580px;
+    }
+
+    .hero-section {
+        padding-left: 20px;
+    }
+
+    .freq-search {
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .freq-search button {
+        padding: 4px 14px;
+        border-radius: 16px;
+    }
+
+    .hero-input input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .hero-input .fa-camera {
+        display: none;
+    }
+
+    .input-btn button {
+        width: 150px;
+        height: 32px;
+    }
+
 }
 
-.freq-search button{
-    padding: 4px 14px;
-    border-radius: 16px;
+@media only screen and (max-width: 640px) {
+    .freq-search {
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .freq-search button {
+        padding: 6px 12px;
+        border-radius: 14px;
+    }
 }
 
-.hero-input input{
-    width: 100%;
-    height: 40px;
+@media only screen and (max-width: 620px) {
+    .freq-search {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        gap: 15px;
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 33px;
+        width: 100%;
+        padding: 0px 20px;
+    }
 }
 
-.hero-input .fa-camera{
-    display: none;
-}
-
-.input-btn button{
-    width: 150px;
-    height: 32px;
-}
-
-}
-
-@media only screen and (max-width: 640px){
-    .freq-search{
-    gap: 8px;
-    font-size: 13px;
-}
-
-.freq-search button{
-    padding: 6px 12px;
-    border-radius: 14px;
-}
-}
-
-@media only screen and (max-width: 620px){
-    .freq-search{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    color: white;
-    gap: 15px;
-    font-size: 20px;
-}
-.hero-text h1{
-    font-size: 33px;
-    width: 100%;
-    padding: 0px 20px;
-}
-}
-
-@media only screen and (max-width: 570px){
-    .hero-section{
+@media only screen and (max-width: 570px) {
+    .hero-section {
         padding-right: 20px;
     }
 
-    .hero-text{
+    .hero-text {
         gap: 20px;
     }
 
-    .hero-input input{
-    width: 100%;
-    height: 40px;
-}
-}
-
-@media only screen and (max-width: 515px){
-    .hero-text h1{
-    font-size: 30px;
-    padding: 0px 5px;
-}
-.hero-first-line p{
-    font-size: 18px;
-}
- .freq-search{
-    gap: 8px;
-    font-size: 15px;
+    .hero-input input {
+        width: 100%;
+        height: 40px;
+    }
 }
 
-.freq-search button{
-    padding: 4px 10px;
-    border-radius: 14px;
-    font-size: 10px;
-}
+@media only screen and (max-width: 515px) {
+    .hero-text h1 {
+        font-size: 30px;
+        padding: 0px 5px;
+    }
+
+    .hero-first-line p {
+        font-size: 18px;
+    }
+
+    .freq-search {
+        gap: 8px;
+        font-size: 15px;
+    }
+
+    .freq-search button {
+        padding: 4px 10px;
+        border-radius: 14px;
+        font-size: 10px;
+    }
 }
 
-@media only screen and (max-width: 445px){
-    .hero-text h1{
-    font-size: 25px;
-    padding: 0px 5px;
+@media only screen and (max-width: 445px) {
+    .hero-text h1 {
+        font-size: 25px;
+        padding: 0px 5px;
+    }
+
+    .search-btn {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .search-btn i {
+        font-size: 10px;
+    }
 }
 
-.search-btn {
-  padding: 0 10px;
-  font-size: 12px;
-}
-
-.search-btn i {
-  font-size: 10px;
-}
-}
-
-@media only screen and (max-width: 386px){
-    .hero-text h1{
-    font-size: 22px;
-    padding: 0px 5px;
-}
+@media only screen and (max-width: 386px) {
+    .hero-text h1 {
+        font-size: 22px;
+        padding: 0px 5px;
+    }
 }
 
 /* ============= Hero Section End ============= */
+
+/* ============= Marketing Section Starts ============= */
+
+@media only screen and (max-width: 950px) {
+    .marketing-text h1 {
+        font-size: 35px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .marketing-section {
+        flex-direction: column;
+    }
+
+    .marketing-text h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .marketing-text h1 {
+        font-size: 30px;
+    }
+
+    .stats {
+        grid-gap: 20px;
+    }
+
+    .stat-item .number {
+        font-size: 25px;
+    }
+}
+
+/* ============= Marketing Section Ends ============= */
+
+/* ============= Full Link Section Starts ============= */
+
+@media only screen and (max-width: 860px) {
+    .link-cont {
+        flex-direction: column;
+    }
+
+    .right-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-link-section h1 {
+        text-align: left;
+    }
+
+    .left-links {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .full-link-section h1 {
+        font-size: 30px;
+    }
+
+    .right-image img {
+        width: 320px;
+        height: 320px;
+        padding-left: 20px;
+    }
+}
+
+/* ============= Full Link Section Ends ============= */
+
+/* ============= Dob Section Starts ============= */
+
+@media only screen and (max-width: 880px) {
+    .dob-text-sec p {
+        width: 100%;
+        margin: 0 auto;
+        color: #666666;
+    }
+
+    .dob-text-sec {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 800px) {
+    .testimonial-slide {
+        flex-direction: column;
+    }
+
+    .testimonial-right p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .testimonial-slide {
+        height: 350px;
+        gap: 20px;
+    }
+}
+
+/* ============= Dob Section Ends ============= */
+
+/* ============= Vision Section Starts ============= */
+
+@media only screen and (max-width: 970px) {
+    .vision-img-left img {
+        width: 400px;
+        height: 420px;
+    }
+
+    .vision-right-1 {
+        width: 380px;
+        height: 220px;
+    }
+
+    .vision-right-2 {
+        width: 380px;
+        height: 170px;
+    }
+
+    .vision-section p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .vision-img-cont {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 445px) {
+    .vision-img-left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vision-right-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .vision-right-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .vision-section h1 {
+        font-size: 38px;
+    }
+}
+
+/* ============= Vision Section Ends ============= */
+
+/* ============= Country Section Starts ============= */
+
+@media only screen and (max-width: 880px) {
+    .country-flags {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .country-flags {
+        gap: 10px;
+    }
+
+    .country-label {
+        font-size: 13px;
+    }
+
+    .country-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 573px) {
+    .country-flags {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .country-text {
+        text-align: center;
+        gap: 15px;
+    }
+}
+
+/* ============= Country Section Ends ============= */
+
+/* ============= Footer Section Starts ============= */
+
+@media only screen and (max-width: 980px) {
+    .foot-icons-links {
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .payment-cards {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    .mid-foot-links {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .foot-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .foot-last-links-3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+/* ============= Footer Section Ends ============= */
