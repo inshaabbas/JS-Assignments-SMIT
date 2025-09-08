@@ -668,6 +668,7 @@ button {
     background-size: cover;
     height: auto;
     padding: 60px 20px;
+    flex-direction: column;
 }
 
 .security-section h1 {
@@ -868,6 +869,7 @@ button {
     background-color: #f7f2f0;
     height: auto;
     padding: 50px 20px;
+    flex-direction: column;
 }
 
 .dob-text-sec {
@@ -1005,6 +1007,7 @@ button {
 .vision-section {
     height: auto;
     padding: 70px 20px;
+    flex-direction: column;
 }
 
 .vision-section h1 {
@@ -1058,11 +1061,14 @@ button {
 .country-section {
     height: auto;
     padding: 40px 20px;
+    flex-direction: column;
 }
 
 .country-text {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .country-text a {
@@ -1108,6 +1114,7 @@ button {
 footer {
     height: auto;
     padding: 40px 20px 60px 20px;
+    flex-direction: column;
 }
 
 .footer-about-heading {
