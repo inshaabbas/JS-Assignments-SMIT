@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+<!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LuckyGuess</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>Lucky Guess</h1>
+
+    <div id="level-select">
+      <h3>Select Difficulty</h3>
+      <button onclick="setLevel('easy')">Easy</button>
+      <button onclick="setLevel('medium')">Medium</button>
+      <button onclick="setLevel('hard')">Hard</button>
+    </div>
+
+    <div id="game-box" style="display: none;">
+      <p id="range-info"></p>
+      <input id="userGuess" type="number" placeholder="Enter your guess">
+      <button onclick="checkGuess()">Guess</button>
+      <p id="feedback"></p>
+      <button onclick="resetGame()" style="display: none;" id="playAgainBtn">Play Again</button>
+      <button onclick="exitGame()" id="exitBtn">Exit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
