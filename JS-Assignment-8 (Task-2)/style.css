@@ -1,0 +1,76 @@
+body {
+  background: radial-gradient(circle at top left, #0a0a0f, #1a1a1f);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.search-input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-section {
+  background: linear-gradient(120deg, rgba(80, 80, 255, 0.2), rgba(255, 80, 180, 0.15));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  width: 18rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #8f94fb, #4e54c8);
+}
+
+.no-match {
+  color: #ccc;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 50px;
+}
