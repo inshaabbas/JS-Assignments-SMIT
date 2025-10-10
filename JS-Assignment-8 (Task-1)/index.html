@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital ATM</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="atm-container">
+    
+    <!-- Welcome Screen -->
+    <div id="screen-welcome" class="screen active">
+      <h2>Welcome to Digital ATM</h2>
+      <p class="highlight">Please dip your card</p>
+      <img class="card-img" src="./Assets/Debit-Card.jpg" alt="ATM Card">
+      <button id="btn-welcome-next">Proceed</button>
+    </div>
+
+    <!-- PIN Screen -->
+    <div id="screen-pin" class="screen">
+      <h2>Enter PIN</h2>
+      <input type="password" id="pin-input" maxlength="4" placeholder="••••" />
+      <p id="pin-error" class="error"></p>
+      <button id="btn-pin-next">Proceed</button>
+    </div>
+
+    <!-- Menu Screen -->
+    <div id="screen-menu" class="screen">
+      <h2>Select a Transaction</h2>
+      <button class="menu-btn" data-action="balance">Check Balance</button>
+      <button class="menu-btn" data-action="deposit">Deposit</button>
+      <button class="menu-btn" data-action="withdraw">Withdraw</button>
+    </div>
+
+    <!-- Amount Screen -->
+    <div id="screen-amount" class="screen">
+      <h2 id="amount-title">Enter Amount</h2>
+      <input type="number" id="amount-input" placeholder="0" />
+      <p id="amount-error" class="error"></p>
+      <div class="btn-group">
+        <button id="btn-amount-submit">Proceed</button>
+        <button id="btn-amount-back" class="secondary-btn">Back</button>
+      </div>
+    </div>
+
+    <!-- Receipt / Result Screen -->
+    <div id="screen-receipt" class="screen">
+      <h2>Transaction Successful</h2>
+      <p>Transaction ID: <span id="receipt-id"></span></p>
+      <p>Current Balance: <span id="receipt-balance"></span></p>
+      <p>Date: <span id="receipt-date"></span></p>
+      <div class="btn-group">
+        <button id="btn-receipt-done">Done</button>
+        <button id="btn-receipt-exit" class="exit-btn">Exit</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
