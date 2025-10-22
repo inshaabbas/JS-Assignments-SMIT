@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartStore</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Mobile Header  -->
+  <header class="mobile-header">
+    <div class="logo">🛒 Smart Store</div>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </header>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <h2>🛒 Smart Store</h2>
+      <ul>
+        <li class="active">Home</li>
+        <li>Products</li>
+        <li>Categories</li>
+        <li>Advice</li>
+        <li>Settings</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header class="top-bar">
+        <input type="text" id="searchInput" placeholder="Search products..." />
+      </header>
+
+      <section class="filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="men's clothing">Men's</button>
+        <button class="filter-btn" data-category="women's clothing">Women's</button>
+        <button class="filter-btn" data-category="electronics">Electronics</button>
+        <button class="filter-btn" data-category="jewelery">Jewelry</button>
+      </section>
+
+      <section class="content">
+        <div class="products" id="productContainer"></div>
+
+        <div class="advice-box">
+          <h3>Daily Advice</h3>
+          <p id="adviceText">Loading advice...</p>
+          <button id="newAdviceBtn">New Advice</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    © 2025 Smart Store | Built with ❤️ using public APIs
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
